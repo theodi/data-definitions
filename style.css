@@ -1,0 +1,69 @@
+.venn_text_big {
+  font: 34px sans-serif;
+  font-weight: bold;
+  text-anchor: middle;
+  fill: #000000;
+}
+
+.venn_text_big_over {
+  font: 34px sans-serif;
+  font-weight: bold;
+  text-anchor: middle;
+  fill: red;
+}
+
+.venn_text_small {
+  font: 20px sans-serif;
+  font-weight: bold;
+  text-anchor: middle;
+  fill: #000000;
+}
+
+.venn_text_over {
+  font: 20px sans-serif;
+  font-weight: bold;
+  text-anchor: middle;
+  fill: red;
+}
+
+.heading {
+  font-size: 24px;
+  font-family: "Verdana";
+  font-weight: bold;
+  font-style: italic;
+  /*text-decoration: underline;*/
+  fill: #708090;
+  text-anchor: center;
+}
+
+div.context_text {
+  width: 800px;
+  height: 175px;
+  border-color: #708090;
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+text.context_text {
+  font-size: 18px;
+  font-family: "Verdana";
+  font-weight: bold;
+  text-decoration: italic;
+  fill: #708090;
+  text-anchor: left;
+}
+
+p.context_text {
+  font-size: 18px;
+  font-family: "Verdana";
+  font-weight: bold;
+  text-decoration: italic;
+  color: #000000;
+}
+
+.text_clip {
+  fill: none;
+  stroke: 0px;
+}
