@@ -18,7 +18,7 @@ I do not claim that these definitions are exhaustive.
 The formal definitions are **not** legal advise. Always understand the context. 
 
 
-### Big Data is (i) data that cannot be handled with conventional tools *and/or* (ii) the idea that large, granular amounts of data create value almost automatically.  
+### Big Data is (i) data that you cannot handle with conventional tools *and/or* (ii) the idea that large, granular amounts of data create value almost automatically.  
 
 
 **More formal**
