@@ -12,65 +12,66 @@ var w = 800,
     
     // Create an object that contains all of the data needed to draw the Venn Diagram circles
     circle_data = [{'color' : '#FF0000', 'x' : x_buffer, 'y' : y_buffer, 'id' : 'hacking' , 'delay' : circle_delay },
-                   {'color' : '#008000', 'x' : w - x_buffer, 'y' : y_buffer, 'id' : 'stats', 'delay' : circle_delay * 2},
-                   {'color' : '#0000FF', 'x' : w / 2, 'y' : h - y_buffer, 'id' : 'substance', 'delay' : text_delay}],
+                   {'color' : '#0000FF', 'x' : w - x_buffer, 'y' : y_buffer, 'id' : 'stats', 'delay' : circle_delay * 2},
+                   {'color' : '#008000', 'x' : w / 2, 'y' : h - y_buffer, 'id' : 'substance', 'delay' : text_delay}],
     
     // Create an object that contains all of the data for diagram's text
     text_data = [
                   [ {'text' : 'Big Data', 'transform' : 'rotate(-45 ' + (x_buffer - 30) + ' ' + (y_buffer - 10) + ')', 
-                    'x' : x_buffer - 30, 'y' : y_buffer - 10, 'id' : 'hacking_skills', 'class' : 'venn_text_big'}],
-                  [ {'text' : 'Open Data', 'transform' : 'rotate(45 ' + (w - (x_buffer - 50)) + ' '+ (y_buffer - 30) +')', 
-                    'x' : w - (x_buffer - 50), 'y' : (y_buffer - 30), 'id' : 'math_stats', 'class' : 'venn_text_big'}],
-                    [ {'text' : 'Personal', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 
-                      'y' : h - (y_buffer - 40), 'id' : 'substantive_expertise', 'class' : 'venn_text_big'},
-                      {'text' : 'Data', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 
-                      'y' : h - (y_buffer - 75), 'id' : 'substantive_expertise', 'class' : 'venn_text_big'}],
+                    'x' : x_buffer - 30, 'y' : y_buffer - 10, 'id' : 'bigdata', 'class' : 'venn_text_big'}],
+                  [ {'text' : 'Open Data', 'transform' : 'rotate(45 ' + (w - (x_buffer - 45)) + ' '+ (y_buffer - 30) +')', 
+                    'x' : w - (x_buffer - 45), 'y' : (y_buffer - 30), 'id' : 'opendata', 'class' : 'venn_text_big'}],
+                  [ {'text' : 'Personal', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 
+                    'y' : h - (y_buffer - 40), 'id' : 'personaldata', 'class' : 'venn_text_big'},
+                    {'text' : 'Data', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 
+                    'y' : h - (y_buffer - 75), 'id' : 'personaldata', 'class' : 'venn_text_big'}],
                 // Intersection text
-                  [ {'text' : 'Machine', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (y_buffer - 30), 
-                    'id' : 'machine_learning', 'class' : 'venn_text_small'},
-                    {'text' : 'Learning', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (y_buffer - 10), 
-                    'id' : 'machine_learning', 'class' : 'venn_text_small'}],
-                  [ {'text' : 'Danger', 'transform' : 'rotate(-30 '+ ((x_buffer + (w / 2)) / 2.2) + ' ' + ((h / 2) + 20) + ')', 
-                    'x' : ((x_buffer + (w / 2)) / 2.2), 'y' : (h / 2) + 20, 'id' : 'danger_zone', 'class' : 'venn_text_small'},
-                    {'text' : 'Zone!', 'transform' : 'rotate(-30 '+ ((x_buffer + (w / 2)) / 2.15) + ' ' + ((h / 2) + 40) + ')', 
-                    'x' : ((x_buffer + (w / 2)) / 2.15), 'y' : (h / 2) + 40, 'id' : 'danger_zone', 'class' : 'venn_text_small'}],
-                  [ {'text' : 'Traditional', 'transform' : 'rotate(30 '+ (w - (w * .40)) + ' ' + ((h / 2) + 20) + ')', 
-                    'x' : w - (w * .39), 'y' : (h / 2) + 20, 'id' : 'traditional_research', 'class' : 'venn_text_small'},
-                    {'text' : 'Research', 'transform' : 'rotate(30 '+ (w - (w * .41)) + ' ' + ((h / 2) + 40) + ')', 
-                    'x' : w - (w * .40), 'y' : (h / 2) + 40, 'id' : 'traditional_research', 'class' : 'venn_text_small'}],
-                  [ {'text' : 'Data', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 40, 
-                    'id' : 'data_science', 'class' : 'venn_text_small'},
-                    {'text' : 'Science', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 
-                    'id' : 'data_science', 'class' : 'venn_text_small'}]
+                  [ {'text' : 'Big +', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (y_buffer - 30), 
+                    'id' : 'b_o', 'class' : 'venn_text_small'},
+                    {'text' : 'Open', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (y_buffer - 10), 
+                    'id' : 'b_o', 'class' : 'venn_text_small'}],
+                  [ {'text' : 'Big +', 'transform' : 'rotate(-30 '+ ((x_buffer + (w / 2)) / 2.2) + ' ' + ((h / 2) + 20) + ')', 
+                    'x' : ((x_buffer + (w / 2)) / 2.2), 'y' : (h / 2) + 20, 'id' : 'b_p', 'class' : 'venn_text_small'},
+                    {'text' : 'Personal', 'transform' : 'rotate(-30 '+ ((x_buffer + (w / 2)) / 2.15) + ' ' + ((h / 2) + 40) + ')', 
+                    'x' : ((x_buffer + (w / 2)) / 2.15), 'y' : (h / 2) + 40, 'id' : 'b_p', 'class' : 'venn_text_small'}],
+                  [ {'text' : 'Open +', 'transform' : 'rotate(30 '+ (w - (w * .40)) + ' ' + ((h / 2) + 20) + ')', 
+                    'x' : w - (w * .39), 'y' : (h / 2) + 20, 'id' : 'o_p', 'class' : 'venn_text_small'},
+                    {'text' : 'Personal', 'transform' : 'rotate(30 '+ (w - (w * .41)) + ' ' + ((h / 2) + 40) + ')', 
+                    'x' : w - (w * .40), 'y' : (h / 2) + 40, 'id' : 'o_p', 'class' : 'venn_text_small'}],
+                  [ {'text' : '?', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 40, 
+                    'id' : 'b_o_p', 'class' : 'venn_text_small'},
+                    {'text' : '(BOP)', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 
+                    'id' : 'b_o_p', 'class' : 'venn_text_small'}]
                 ]
 
-    context_data = {"hacking_skills" : "Hacking Skills: Data is a commodity traded electronically, therefore, in order to be in this market you need to speak hacker. Far from 'black hat' activities, data hackers must be able to manipulate text files at the command-line, thinking algorithmically, and be interested in learning new tools.",
-                    "math_stats" : "Math & Statistics Knowledge: Once you have acquired and cleaned the data, the next step is to actually extract insight from it. You need to apply appropriate math and statistics methods, which requires at least a baseline familiarity with these tools.",
-                    "substantive_expertise" : "Substantive Expertise: Science is about discovery and building knowledge, which requires some motivating questions about the world and hypotheses that can be brought to data and tested with statistical methods. Questions first, then data.",
-                    "machine_learning" : "Machine Learning: Data plus math is machine learning, which is fantastic if that is what you if that is what you are interested in, but not if you are doing data science.",
-                    "traditional_research" : "Traditional Research: Substantive expertise plus math and statistics knowledge is where most traditional researcher falls. Doctoral level researchers spend most of their time acquiring expertise in these areas, but very little time learning about technology.",
-                    "danger_zone" : "Danger Zone!: This is where I place people who, 'know enough to be dangerous,' and is the most problematic area of the diagram. It is from this part of the diagram that the phrase 'lies, damned lies, and statistics' emanates, because either through ignorance or malice this overlap of skills gives people the ability to create what appears to be a legitimate analysis without any understanding of how they got there or what they have created."
+    context_data = {"bigdata" : "Big Data is (i) data that cannot be handled with conventional tools and/or (ii) the idea that large, granular amounts of data create value almost automatically. More formal: There is no formal definition of Big Data – though many have tried.",
+                    "opendata" : "Open Data is data that anyone can use; without legal, technical or financial barriers. – More formal – The Open Knowledge Foundation writes: A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.",
+                    "personaldata" : "Personal Data is data derived from people, where you can distinguish a person from other people in the group. – More formal – A technical definition of personally identifiable information (PII) from the ISO 29100 standard (privacy framework): any information that (a) can be used to identify the PII principal to whom such information relates, or (b) is or might be directly or indirectly linked to a PII principal.",
+                    "b_o" : "We can think of it in two ways: (1) Big Data that is made available as Open Data (see our Big Data Publishing guide) or (2) Open Data that combined with other information achieve Big Data status. Governments around the world are excited about this because they see its potential for transparency and economic growth. However, at the moment most of it is just data, not information, and even more of it is not open.",
+                    "b_p" : "This is the intersection where big business gets excited. Enhanced selling, geo-targeted advertising, personalised recommendations all derive from algorithms mining customer (= people) data. The few examples where individuals benefit from Big Data do not balance this asymmetry. The public are passive when it comes to Big Data. With more algorithm shaping our lives than ever before (take credit scoring for example), combining Big and Personal Data will continue to create tensions.",
+                    "o_p" : "In most circumstances, Personal Data must not be open. You may even be liable if you do publish Personal Data. There are a few exceptions such as the Law requiring you to publish Personal Data or an individual opening up her own data. However, Personal Data can be published if it is sufficiently anonymised because then it is no longer Personal Data. 'Sufficiently' is of course a subjective term, but modern techniques have proven to be very effective at minimising the risk of anonymised data.",
+					"b_o_p": "Does it exist? It would require a special type of data nudist to be willing to share large amounts of his/her personal life. Some have hopes in people voluntarily contributing to large open scientific dataset that have the potential to advance medicine for example. Combining your available online activities such as social media data may be getting close to a combination of all three. It is essentially a flavour with more than an acquired taste; for many not acceptable."
                     },
     
     chart = d3.select('#venn')
         .append('svg:svg')
         .attr('height', h)
         .attr('width', w)
-        .attr("xlink:href", "http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram")
+		.attr("xlink:href", "http://theodi.github.io/data-def")
         
     // Add heading
     title = chart.append('svg:text')
         .attr('class', 'heading')
         .attr('x', 10)
         .attr('y', 20)
-        .text('The Data Science Venn Diagram'), 
+        .text('A Colloquial Definition of Big, Open, and Personal Data'), 
 
 
     heading = chart.append('svg:text')
         .attr('class', 'heading')
         .attr('x', 10)
         .attr('y', h - 20)
-        .text('Mouseover for context'), 
+		.text('Mouseover for context'), 
         
     // Draw circles
     venn_circles = chart.selectAll('circle')
@@ -123,47 +124,6 @@ function nextText() {
                     return over_opacity;
                 }
             });
-
-        // Add clipping around text
-        // text_masks = chart.selectAll("clipPath")
-        //     .data(text_data[clicks])
-        //   .enter().append("svg:clipPath")
-        //     .append("svg:rect")
-        //         .attr('id', function(d){ return d.id; })
-        //         .attr("class", "text_clip")
-        //         .attr('x', function(d){ 
-        //             if(d.class == "venn_text_big") {
-        //                 return d.x - (34 * d.text.length;
-        //             }
-        //             else {
-        //                 return d.x - 20;  
-        //             }
-        //         })
-        //         .attr('y', function(d){ 
-        //             if(d.class == "venn_text_big") {
-        //                 return d.y - 34;
-        //             }
-        //             else {
-        //                 return d.y - 20;  
-        //             }
-        //         })
-        //         .attr("width", function(d){ 
-        //             if(d.class == "venn_text_big") {
-        //                 return d.text.length * 10;
-        //             }
-        //             else {
-        //                 return d.text.length * 5; 
-        //             }
-        //         })
-        //         .attr("height", function(d){ 
-        //             if(d.class == "venn_text_big") {
-        //                 return 34
-        //             }
-        //             else {
-        //                 return 20   
-        //             }
-        //         })
-        //         .attr('transform', function(d){ return d.transform; });
         clicks += 1;
     }
 }
