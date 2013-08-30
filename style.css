@@ -1,37 +1,21 @@
 .venn_text_big {
-  font: 34px sans-serif;
+  font: 34px "Open Sans";
   font-weight: bold;
   text-anchor: middle;
   fill: #000000;
-}
-
-.venn_text_big_over {
-  font: 34px sans-serif;
-  font-weight: bold;
-  text-anchor: middle;
-  fill: red;
 }
 
 .venn_text_small {
-  font: 20px sans-serif;
+  font: 20px "Open Sans";
   font-weight: bold;
   text-anchor: middle;
   fill: #000000;
-}
-
-.venn_text_over {
-  font: 20px sans-serif;
-  font-weight: bold;
-  text-anchor: middle;
-  fill: red;
 }
 
 .heading {
   font-size: 24px;
-  font-family: "Verdana";
+  font-family: "Helvetica Neue";
   font-weight: bold;
-  font-style: italic;
-  /*text-decoration: underline;*/
   fill: #708090;
   text-anchor: center;
 }
@@ -48,19 +32,26 @@ div.context_text {
 
 text.context_text {
   font-size: 18px;
-  font-family: "Verdana";
+  font-family: "Open Sans";
   font-weight: bold;
   text-decoration: italic;
-  fill: #708090;
+  fill: #34282C;
   text-anchor: left;
 }
 
 p.context_text {
   font-size: 18px;
-  font-family: "Verdana";
-  font-weight: bold;
+  font-family: "Open Sans";
   text-decoration: italic;
-  color: #000000;
+  color: #34282C;
+}
+
+div#attribution {
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    color: #34282C;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .text_clip {
