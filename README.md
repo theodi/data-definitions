@@ -1,7 +1,7 @@
 A Colloquial Definition of Big, Open, and Personal Data
 -----------
 
-*Open Data gets conflated with personal data; everyone talks about big data; yet no-one is sure what it is; we're all concerned about personal data; …* 
+*Open data gets conflated with personal data; everyone talks about big data; yet no-one is sure what it is; we're all concerned about personal data; …* 
 
 Here are a three **distinct** concepts of data:
 
