@@ -61,7 +61,7 @@ Governments around the world are excited about this because they see its potenti
 This is the intersection where big business gets excited. Enhanced selling, geo-targeted advertising, personalised recommendations all derive from algorithms mining customer (= people) data. The few examples where individuals benefit from Big Data do not balance this asymmetry. The public are passive when it comes to Big Data. With more algorithm shaping our lives than ever before (take credit scoring for example), combining Big and Personal Data will continue to create tensions.
 
 ### Open and Personal
-In most circumstances, Personal Data **must not** be open. You may even be liable if you do publish Personal Data. There are a few exceptions such as the Law requiring you to publish Personal Data or an individual opening up her own data. 
+Personal Data is not Open Data without explicit and informed consent from the individual. There are only a few exceptions such as the Law requiring you to publish Personal Data or an individual opening up her own data.
 
 However, Personal Data **can** be published if it is sufficiently anonymised because then it is no longer Personal Data. 'Sufficiently' is of course a subjective term, but modern techniques have proven to be very effective at minimising the risk of anonymised data.
 
