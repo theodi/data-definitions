@@ -38,7 +38,7 @@ var w = 800,
                     'x' : w - (w * .39), 'y' : (h / 2) + 20, 'id' : 'o_p', 'class' : 'venn_text_small'},
                     {'text' : 'Personal', 'transform' : 'rotate(30 '+ (w - (w * .41)) + ' ' + ((h / 2) + 40) + ')', 
                     'x' : w - (w * .40), 'y' : (h / 2) + 40, 'id' : 'o_p', 'class' : 'venn_text_small'}],
-                  [ {'text' : '?', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 40, 
+                  [ {'text' : '&#x1f432; &#x1f432; &#x1f432;?', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 40, 
                     'id' : 'b_o_p', 'class' : 'venn_text_small'},
                     {'text' : '(BOP)', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 
                     'id' : 'b_o_p', 'class' : 'venn_text_small'}]
