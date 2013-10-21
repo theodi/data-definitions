@@ -3,7 +3,7 @@ A Colloquial Definition of Big, Open, and Personal Data
 
 ### This is a draft version; we encourage discussion.
 
-### [Below is more on personal data meets open data](https://github.com/theodi/data-definitions#open-personal).
+### [Below is more on personal data meets open data](https://github.com/theodi/data-definitions#open-and-personal).
 
 *Open data gets conflated with personal data; everyone talks about big data; yet no-one is sure what it is; we're all concerned about personal data; …* 
 
@@ -62,7 +62,7 @@ Governments around the world are excited about this because they see its potenti
 
 This is the intersection where big business gets excited. Enhanced selling, geo-targeted advertising, personalised recommendations all derive from algorithms mining customer (= people) data. The few examples where individuals benefit from Big Data do not balance this asymmetry. The public are passive when it comes to Big Data. With more algorithm shaping our lives than ever before (take credit scoring for example), combining Big and Personal Data will continue to create tensions.
 
-### [Open and Personal](id:open-personal)
+### Open and Personal
 Personal Data is not Open Data without *explicit* and *informed* consent from the individual. There are only a few exceptions such as the Law requiring you to publish Personal Data or an individual opening up her own data.
 
 However, Personal Data **can** be published if it is sufficiently anonymised because then it is no longer Personal Data. 'Sufficiently' is of course a subjective term, but modern techniques have proven to be very effective at minimising the risk of anonymised data.
