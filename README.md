@@ -3,7 +3,12 @@ A Colloquial Definition of Big, Open, and Personal Data
 
 ### This is a draft version; we encourage discussion.
 
-### [Below is more on personal data meets open data](https://github.com/theodi/data-definitions#open-and-personal).
+
+#### [Below is more on personal data meets open data](https://github.com/theodi/data-definitions#open-and-personal).
+
+#### [Click here for the Venn diagram page](http://theodi.github.io/data-definitions).
+![Venn diagram](img/venn.png "Venn diagram")
+
 
 *Open data gets conflated with personal data; everyone talks about big data; yet no-one is sure what it is; we're all concerned about personal data; …* 
 
