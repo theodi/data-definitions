@@ -11,9 +11,9 @@ var w = 800,
     clicks = 0,
     
     // Create an object that contains all of the data needed to draw the Venn Diagram circles
-    circle_data = [{'color' : '#FF0000', 'x' : x_buffer, 'y' : y_buffer, 'id' : 'hacking' , 'delay' : circle_delay },
-                   {'color' : '#0000FF', 'x' : w - x_buffer, 'y' : y_buffer, 'id' : 'stats', 'delay' : circle_delay * 2},
-                   {'color' : '#008000', 'x' : w / 2, 'y' : h - y_buffer, 'id' : 'substance', 'delay' : text_delay}],
+    circle_data = [{'color' : '#D60303', 'x' : x_buffer, 'y' : y_buffer, 'id' : 'hacking' , 'delay' : circle_delay },
+                   {'color' : '#2254F4', 'x' : w - x_buffer, 'y' : y_buffer, 'id' : 'stats', 'delay' : circle_delay * 2},
+                   {'color' : '#0DBC37', 'x' : w / 2, 'y' : h - y_buffer, 'id' : 'substance', 'delay' : text_delay}],
     
     // Create an object that contains all of the data for diagram's text
     text_data = [
@@ -38,11 +38,12 @@ var w = 800,
                     'x' : w - (w * .39), 'y' : (h / 2) + 20, 'id' : 'o_p', 'class' : 'venn_text_small'},
                     {'text' : 'Personal', 'transform' : 'rotate(30 '+ (w - (w * .41)) + ' ' + ((h / 2) + 40) + ')', 
                     'x' : w - (w * .40), 'y' : (h / 2) + 40, 'id' : 'o_p', 'class' : 'venn_text_small'}],
-                  [ {'text' : '?', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 40, 
-                    'id' : 'b_o_p', 'class' : 'venn_text_small'},
-                    {'text' : '(BOP)', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 
+                  [ {'text' : '?', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 25, 
                     'id' : 'b_o_p', 'class' : 'venn_text_small'}]
                 ]
+
+				// , {'text' : '(BOP)', 'transform' : 'rotate(0 0 0)', 'x' : w / 2, 'y' : (h / 2) - 20, 
+				//                     'id' : 'b_o_p', 'class' : 'venn_text_small'}
 
     context_data = {"bigdata" : "Big Data is (i) data that cannot be handled with conventional tools and/or (ii) the idea that large, granular amounts of data create value almost automatically. More formal: There is no formal definition of Big Data – though many have tried.",
                     "opendata" : "Open Data is data that anyone can use; without legal, technical or financial barriers. – More formal – The Open Knowledge Foundation writes: A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.",
@@ -57,7 +58,7 @@ var w = 800,
         .append('svg:svg')
         .attr('height', h)
         .attr('width', w)
-		.attr("xlink:href", "http://theodi.github.io/data-def")
+		.attr("xlink:href", "http://theodi.github.io/data-definitions")
         
     // Add heading
     title = chart.append('svg:text')

@@ -54,6 +54,16 @@ div#attribution {
 	padding-bottom: 20px;
 }
 
+.github {
+    font-size: 14px;
+    font-family: "Helvetica Neue";
+	color: #B13198;
+	left: 40px;
+	padding-left: 10px;
+	margin: 0px 0px 10px 0px;
+	
+}
+
 .text_clip {
   fill: none;
   stroke: 0px;
