@@ -81,7 +81,7 @@ However, Personal Data **can** be published if it is sufficiently anonymised bec
 * aggregate user data anonymised and released as open data
 * user data that individual user release themselves as open data
 
-<table id="open-personal" border="0">
+<table id="open-personal" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
 <td class="align-center"><img src="img/open-personal-1.png"/></td>
