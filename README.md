@@ -3,7 +3,7 @@ A Colloquial Definition of Big, Open, and Personal Data
 
 ### This is a DRAFT version.
 
-### [Here is more on personal data meets open data](#open-personal).
+### [Here is more on personal data meets open data](https://github.com/theodi/data-definitions#open-personal).
 
 *Open data gets conflated with personal data; everyone talks about big data; yet no-one is sure what it is; we're all concerned about personal data; …* 
 
@@ -67,7 +67,7 @@ Personal Data is not Open Data without *explicit* and *informed* consent from th
 
 However, Personal Data **can** be published if it is sufficiently anonymised because then it is no longer Personal Data. 'Sufficiently' is of course a subjective term, but modern techniques have proven to be very effective at minimising the risk of anonymised data.
 
-##### Personal data is
+#### Personal data is
 
 **"closed data" if it is**
 
@@ -81,7 +81,7 @@ However, Personal Data **can** be published if it is sufficiently anonymised bec
 * aggregate user data anonymised and released as open data
 * user data that individual user release themselves as open data
 
-<table id="open-personal" class="table">
+<table id="open-personal" border="0">
 <tbody>
 <tr>
 <td class="align-center"><img src="img/open-personal-1.png"/></td>
@@ -89,10 +89,6 @@ However, Personal Data **can** be published if it is sufficiently anonymised bec
 </tr>
 </tbody>
 </table>
-
-
-![1](img/open-personal-1.png)
-![2](img/open-personal-2.png)
 
 
 ### Big Open Personal (BOP) Data 
