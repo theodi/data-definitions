@@ -1,9 +1,9 @@
 A Colloquial Definition of Big, Open, and Personal Data
 -----------
 
-### This is a DRAFT version.
+### This is a draft version; we encourage discussion.
 
-### [Here is more on personal data meets open data](https://github.com/theodi/data-definitions#open-personal).
+### [Below is more on personal data meets open data](https://github.com/theodi/data-definitions#open-personal).
 
 *Open data gets conflated with personal data; everyone talks about big data; yet no-one is sure what it is; we're all concerned about personal data; …* 
 
