@@ -3,6 +3,8 @@ A Colloquial Definition of Big, Open, and Personal Data
 
 ### This is a DRAFT version.
 
+### [Here is more on personal data meets open data](#open-personal).
+
 *Open data gets conflated with personal data; everyone talks about big data; yet no-one is sure what it is; we're all concerned about personal data; …* 
 
 Here are a three **distinct** concepts of data:
@@ -20,7 +22,7 @@ I do not claim that these definitions are exhaustive.
 The formal definitions are **not** legal advise. Always understand the context. 
 
 
-### 1. *Big Data* is (i) data that you cannot handle with conventional tools *and/or* (ii) the idea that large, granular amounts of data create value almost automatically.  
+### 1. *Big Data* is (i) data that you cannot handle with conventional tools *and/or* (ii) the idea that large, granular amounts of data create value almost automagically.  
 
 
 **More formal**
@@ -60,10 +62,37 @@ Governments around the world are excited about this because they see its potenti
 
 This is the intersection where big business gets excited. Enhanced selling, geo-targeted advertising, personalised recommendations all derive from algorithms mining customer (= people) data. The few examples where individuals benefit from Big Data do not balance this asymmetry. The public are passive when it comes to Big Data. With more algorithm shaping our lives than ever before (take credit scoring for example), combining Big and Personal Data will continue to create tensions.
 
-### Open and Personal
-Personal Data is not Open Data without explicit and informed consent from the individual. There are only a few exceptions such as the Law requiring you to publish Personal Data or an individual opening up her own data.
+### [Open and Personal](id:open-personal)
+Personal Data is not Open Data without *explicit* and *informed* consent from the individual. There are only a few exceptions such as the Law requiring you to publish Personal Data or an individual opening up her own data.
 
 However, Personal Data **can** be published if it is sufficiently anonymised because then it is no longer Personal Data. 'Sufficiently' is of course a subjective term, but modern techniques have proven to be very effective at minimising the risk of anonymised data.
+
+##### Personal data is
+
+**"closed data" if it is**
+
+* user data give back to the user (e.g. UK midata, US greenbutton) 
+* user data mashed up with other closed data to provide new services
+* user data mashed up with other open data to provide new services
+* aggregate user data anonymised and used as closed data     
+
+**"open data" if it is**
+
+* aggregate user data anonymised and released as open data
+* user data that individual user release themselves as open data
+
+<table id="open-personal" class="table">
+<tbody>
+<tr>
+<td class="align-center"><img src="img/open-personal-1.png"/></td>
+<td class="align-center"><img src="img/open-personal-2.png"/></td>
+</tr>
+</tbody>
+</table>
+
+
+![1](img/open-personal-1.png)
+![2](img/open-personal-2.png)
 
 
 ### Big Open Personal (BOP) Data 
@@ -73,11 +102,6 @@ Does it exist? It would require a special type of *data nudist* to be willing to
 
 
 ## Licence
-
-
-
-
-
 
 Venn diagram inspired by [Drew Conway](http://www.drewconway.com)
 
