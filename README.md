@@ -27,12 +27,12 @@ I do not claim that these definitions are exhaustive.
 The formal definitions are **not** legal advise. Always understand the context. 
 
 
-### 1. *Big Data* is (i) data that you cannot handle with conventional tools *and/or* (ii) the idea that large, granular amounts of data create value almost automagically.  
+### 1. *Big Data* is (i) data that you cannot handle with conventional tools *or* (ii) a term used as a vague metaphor for solving problems with data.
 
 
 **More formal**
 
-There is no formal definition of Big Data – though many have tried.
+There is no formal definition of Big Data – though [many](http://www.opentracker.net/article/definitions-big-data) have tried. Most of them agree that it is more than 'large data', more than just its size.
 
 
 ### 2. *Open Data* is data that anyone can use; without legal, technical or financial barriers.
