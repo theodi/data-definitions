@@ -11,9 +11,9 @@ var w = 800,
     clicks = 0,
     
     // Create an object that contains all of the data needed to draw the Venn Diagram circles
-    circle_data = [{'color' : '#D60303', 'x' : x_buffer, 'y' : y_buffer, 'id' : 'bigdata' , 'delay' : circle_delay },
+    circle_data = [{'color' : '#E6007C', 'x' : x_buffer, 'y' : y_buffer, 'id' : 'bigdata' , 'delay' : circle_delay },
                    {'color' : '#2254F4', 'x' : w - x_buffer, 'y' : y_buffer, 'id' : 'opendata', 'delay' : circle_delay * 2},
-                   {'color' : '#0DBC37', 'x' : w / 2, 'y' : h - y_buffer, 'id' : 'personaldata', 'delay' : text_delay}],
+                   {'color' : '#1DD3A7', 'x' : w / 2, 'y' : h - y_buffer, 'id' : 'personaldata', 'delay' : text_delay}],
     
     // Create an object that contains all of the data for diagram's text
     text_data = [
