@@ -35,7 +35,7 @@ The formal definitions are **not** legal advise. Always understand the context.
 There is no formal definition of Big Data – though [many](http://www.opentracker.net/article/definitions-big-data) have tried. Most of them agree that it is more than 'large data', more than just its size.
 
 
-### 2. *Open Data* is data that anyone can use; without legal, technical or financial barriers.
+### 2. *Open Data* is information that is available for anyone to use, for any purpose, at no cost.
 
 **More formal**
 
@@ -43,6 +43,7 @@ The [Open Knowledge Foundation](http://opendefinition.org/) writes:
 
 >A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.
 
+Note how [data sharing is *not* open data](https://theodi.org/blog/data-sharing-is-not-open-data)
 
 ### 3. *Personal Data* is data derived from people, where you can distinguish a person from other people in the group.
 
