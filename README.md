@@ -73,6 +73,8 @@ Personal Data is not Open Data without *explicit* and *informed* consent from th
 
 However, Personal Data **can** be published if it is sufficiently anonymised because then it is no longer Personal Data. 'Sufficiently' is of course a subjective term, but modern techniques have proven to be very effective at minimising the risk of anonymised data.
 
+Important to note is also the difference to **shared data**. [Shared data is not open data.](http://theodi.org/blog/data-sharing-is-not-open-data)
+
 #### Personal data is
 
 **"closed data" if it is**
